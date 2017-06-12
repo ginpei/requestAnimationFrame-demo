@@ -1,0 +1,27 @@
+.area {
+	border: 2px ridge;
+}
+.box {
+	background-color: #9cf;
+	height: 5em;
+	margin: 1em;
+	width: 5em;
+}
+
+.css-left {
+	animation: swinging-left 1s infinite linear;
+	position: relative;
+}
+@keyframes  swinging-left {
+	0% { left: 0; }
+	100% { left: 500px; }
+}
+
+.css-transform {
+	animation: swinging-transform 1s infinite linear;
+	position: relative;
+}
+@keyframes  swinging-transform {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(500px); }
+}
